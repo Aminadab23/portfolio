@@ -48,14 +48,7 @@ const Experience = () => {
                 className="w-60 ml-10 rounded-md duriation-200 hover:scale-105"
                 alt={id}
               />
-              <div className="flex item-center justify-center">
-                <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
-                  Code
-                </button>
-              </div>
+             
             </div>
           ))}
         </div>
