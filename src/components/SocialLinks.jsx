@@ -12,7 +12,7 @@ export const SocialLinks = () => {
                 LinkedIn <FaLinkedin size={30}/>
                 </>
             ),
-            href : 'https://linkedin.com',
+            href : 'https://www.linkedin.com/in/yeabsra-ayehualem-a67119219?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bzhr5fv5eTV%2BKarV%2B9EBi6Q%3D%3D',
                 style: 'rounded-tr-md'
         },
         {
