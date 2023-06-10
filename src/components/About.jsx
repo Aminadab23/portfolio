@@ -14,13 +14,7 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
-          exercitationem corporis blanditiis repudiandae dolorum libero impedit
-          ipsum explicabo reprehenderit dicta soluta quod praesentium cumque
-          quisquam voluptates dolorem minima perferendis necessitatibus, odit,
-          optio debitis eius? Hic, pariatur. Non quidem animi, temporibus
-          aspernatur quibusdam amet asperiores, reprehenderit cumque saepe,
-          tempore provident facilis.
+         Hello! I m Yeabsra Ayehualem. A computer scinece graduate and a full stack developer. Born in 2000 (milinial boy😉). Very passionate to learn and scale up my experience through the field. Contact me the through the links on the left side of your screen. And also check out some of my works. Thank you for your time! 
         </p>
 
         <br />

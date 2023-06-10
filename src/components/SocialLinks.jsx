@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub,FaTelegram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
@@ -36,7 +36,17 @@ export const SocialLinks = () => {
                 
         },
         {
-            id: 4,
+          id:4,
+          child: (
+            <>
+            Telegram <FaTelegram size={30}/>
+            </>
+          ),
+          href: "https://t.me/Aminadab23",
+          
+        },
+        {
+            id: 5,
             child : (
                 <>
                 Resume <BsFillPersonLinesFill size={30}/>
