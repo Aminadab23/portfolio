@@ -1,6 +1,6 @@
 import React from "react";
 import vl from "../assets/vl.jpg";
-
+import timesh from '../assets/time.jpg'
 const Portfolio = () => {
   const portfolios = [
     {
@@ -9,7 +9,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: vl,
+      src: time,
     },
     {
       id: 3,
@@ -45,9 +45,9 @@ const Portfolio = () => {
                 alt={id}
               />
               <div className="flex item-center justify-center">
-                <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
+                <a className="w-1/2 px-6 m-4 duration-200 hover:scale-105" href="https://timesheetxsls.netlify.app/">
                   Demo
-                </button>
+                </a>
                 <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
                   Code
                 </button>
