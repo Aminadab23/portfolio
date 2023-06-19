@@ -6,23 +6,15 @@ const Portfolio = () => {
     {
       id: 1,
       src: vl,
+      ref:""
     },
     {
       id: 2,
       src: time,
+      red: "https://timesheetxsls.netlify.app/"
     },
-    {
-      id: 3,
-      src: vl,
-    },
-    {
-      id: 4,
-      src: vl,
-    },
-    {
-      id: 5,
-      src: vl,
-    },
+    
+    
   ];
   return (
     <div
@@ -37,7 +29,7 @@ const Portfolio = () => {
           <p className="py-6 ">Check out some of my work here</p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, ref }) => (
             <div key={id} className="shadow-md shadow-gray-500 rounded-lg">
               <img
                 src={src}
@@ -45,7 +37,7 @@ const Portfolio = () => {
                 alt={id}
               />
               <div className="flex item-center justify-center">
-                <a className="w-1/2 px-6 m-4 duration-200 hover:scale-105" href="https://timesheetxsls.netlify.app/">
+                <a className="w-1/2 px-6 m-4 duration-200 hover:scale-105" href={ref}>
                   Demo
                 </a>
                 <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
