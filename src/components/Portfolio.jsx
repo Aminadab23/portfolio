@@ -10,7 +10,7 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: time,
+      src: timesh,
       red: "https://timesheetxsls.netlify.app/"
     },
     
