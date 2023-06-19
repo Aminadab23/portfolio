@@ -1,6 +1,6 @@
 import React from "react";
 import vl from "../assets/vl.jpg";
-import timesh from '../assets/time.jpg';
+import timesh from '../assets/time.JPG';
 const Portfolio = () => {
   const portfolios = [
     {
