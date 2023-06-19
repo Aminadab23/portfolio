@@ -11,7 +11,7 @@ const Portfolio = () => {
     {
       id: 2,
       src: timesh,
-      red: "https://timesheetxsls.netlify.app/"
+      ref: "https://timesheetxsls.netlify.app/"
     },
     
     
@@ -37,7 +37,7 @@ const Portfolio = () => {
                 alt={id}
               />
               <div className="flex item-center justify-center">
-                <a className="w-1/2 px-6 m-4 duration-200 hover:scale-105" href={ref}>
+                <a className="w-1/2 px-6 m-4 duration-200 hover:scale-105 cursor-pointer" href={ref}>
                   Demo
                 </a>
                 <button className="w-1/2 px-6 m-4 duration-200 hover:scale-105">
