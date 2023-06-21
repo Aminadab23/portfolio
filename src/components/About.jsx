@@ -14,18 +14,11 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20">
-         Hello! I m Yeabsra Ayehualem. A computer scinece graduate and a full stack developer. Born in 2000 (milinial boy😉). Very passionate to learn and scale up my experience through the field. Contact me the through the links on the left side of your screen. And also check out some of my works. Thank you for your time! 
+         Hello! I m Yeabsra Ayehualem. A computer scinece graduate and a junior full stack developer. Very passionate to learn and scale up my experience through the field. Contact me the through the links on the left side of your screen. And also check out some of my works. Thank you for your time! 
         </p>
 
         <br />
-        <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellat
-          sit, maiores incidunt error corrupti nesciunt dolores quidem id
-          repellendus nulla, sapiente ullam, nihil nemo voluptates quisquam
-          aliquid deleniti corporis esse autem. Laborum modi molestiae aliquid
-          labore architecto praesentium magni eos quibusdam excepturi vitae?
-          Sapiente, ut molestias! Earum, explicabo aliquid!
-        </p>
+      
       </div>
     </div>
   );

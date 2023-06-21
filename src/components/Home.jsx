@@ -10,10 +10,10 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-4xl  text-white sm:text-7xl font-bold">I m a Fullstack Developer</h2>
+          <h2 className="text-4xl  text-white sm:text-7xl font-bold">I m a Junior Fullstack Developer</h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have a 2 year eperience with back end techs like django and node
-            and a year with mobile app with flutter.
+            I have a skill with back end techs like django 
+            and a year with mobile app with flutter, front end techs like react and tailwind.
           </p>
 
           <div>
